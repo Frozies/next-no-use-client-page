@@ -37,9 +37,9 @@ Add the custom rule to your ESLint configuration file (.eslintrc.js or .eslintrc
 
 ```js
 {
-    "plugins": ["no-client-on-page"],
+    "plugins": ["next-no-use-client-on-page"],
         "rules": {
-        "no-client-on-page/no-client-on-page": "error"
+        "no-use-client-on-page": "error"
     }
 }
 
