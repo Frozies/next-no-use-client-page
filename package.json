@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-next-no-use-client-on-page",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "In NextJS app directory, disallow the use of \"use client\" on page files.",
   "keywords": [
     "eslint",
@@ -9,7 +9,7 @@
     "nextjs"
   ],
   "author": "Davin Young",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
     "lint": "npm-run-all \"lint:*\"",
